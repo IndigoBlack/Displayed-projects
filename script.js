@@ -1,8 +1,3 @@
-//Create your own Pokedex
-
-// Function to fectch api for the pokedex and add the pokemon in an array or an object
-// Function to display the pokemon. Call this function in the fetch api function
-// Optional: make it so that the pokemon card flips when you click on it and shows the rest of the pokemon's details at the back of the card
 const pokemonContainer = document.getElementById("pokemon-container");
 const pokemonList = document.getElementById("pokemon-list");
 const searchInput = document.getElementById("search");
@@ -33,8 +28,6 @@ function getPokemon() {
                                 picture: pokemonData.sprites.front_default,
                                 url: pokemonData.species.url,
                                 name: pokemonData.name,
-                                // The map function works like this: map(variable => variable.ability(is a property of the ability array from  the api).name)
-                                // Hope that better explains it so it doesn't confuse you in the future.
                                 abilities: pokemonData.abilities.map(skill => ({
                                     name: skill.ability.name,
                                     url: skill.ability.url

@@ -4,7 +4,7 @@ This is a simple Pokedex application built with HTML, CSS, and JavaScript. It fe
 ## Features:
 - Displays Pokemon name, image, abilities, species, and evolution.
 - Allows searching for Pokemon by name.
-- Clicking on an ability name opens a modal with a brief description of the ability (work in progress).
+- Clicking on an ability name opens a modal with a brief description of the ability.
 
 ## Running the application:
 1. Clone this repository or download the files.
